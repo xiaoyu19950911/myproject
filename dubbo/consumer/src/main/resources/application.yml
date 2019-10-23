@@ -1,0 +1,6 @@
+server:
+  port: 8888
+spring:
+  dubbo:
+    appname: demo-consumer
+    registry: zookeeper://47.98.108.55:2181

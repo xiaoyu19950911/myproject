@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
+        <module name="async" />
+        <module name="bitchat-client" />
+        <module name="bitchat-core" />
+        <module name="bitchat-im-client" />
+        <module name="bitchat-im-connection" />
+        <module name="bitchat-im-message" />
+        <module name="bitchat-im-server" />
+        <module name="bitchat-im-transport" />
+        <module name="bitchat-im-user" />
+        <module name="bitchat-protocol" />
+        <module name="bitchat-router" />
+        <module name="bitchat-server" />
+        <module name="common" />
+        <module name="consumer" />
+        <module name="lock" />
+        <module name="mybatis" />
+        <module name="netty-demo" />
+        <module name="netty-http" />
+        <module name="netty-im" />
+        <module name="patterns" />
+        <module name="provider" />
+        <module name="shield-ratelimiter-core" />
+        <module name="shleld-ratelimter-demo" />
+        <module name="spi" />
+        <module name="springboot_swagger2" />
+        <module name="zookeeper-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot_swagger2 (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

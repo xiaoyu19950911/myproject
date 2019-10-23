@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dubbo/consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/initial_version_of_springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im/bitchat-im-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im/bitchat-im-connection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im/bitchat-im-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im/bitchat-im-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im/bitchat-im-transport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-im/bitchat-im-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-protocol" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-router" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/bitchat/bitchat-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/netty-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/netty-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/netty-im" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shield-ratelimter-master/shleld-ratelimter-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot/springboot_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-config" charset="UTF-8" />
+  </component>
+</project>

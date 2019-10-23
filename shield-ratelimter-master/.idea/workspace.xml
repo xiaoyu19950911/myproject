@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="477cdd79-b834-4d18-9f54-0db75fc1fde8" name="Default Changelist" comment="snowalker--添加特殊记账逻辑">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/doc/K8S基础设施搭建.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-conf-single.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui/shield-config-manage-ui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui/target/classes/templates/shield-conf-auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui/target/classes/templates/shield-conf-auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui/target/classes/templates/update-sysconfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui/target/classes/templates/update-sysconfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/shield-demo-project-single.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/src/main/java/com/conf/test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/src/main/java/com/conf/test/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shield-ratelimiter-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shield-ratelimiter-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBizServiceFacadeImpl.java" beforeDir="false" afterPath="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBizServiceFacadeImpl.java" afterDir="false" />
+      <change beforePath="D:/snowalker-workspace/0mkt-workspace/mopmweb/mopmweb-service/src/main/java/com/gaoyang/marketing/mopmweb/util/EncryptUtil.java" beforeDir="false" afterPath="D:/snowalker-workspace/0mkt-workspace/mopmweb/mopmweb-service/src/main/java/com/gaoyang/marketing/mopmweb/util/EncryptUtil.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../rmqtool-protocol-lib/target/" />
+    <ignored path="$PROJECT_DIR$/../rmqtool-protocol-lib/aliyun-acm-util/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/maccbasecore/target/" />
+    <ignored path="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/target/" />
+    <ignored path="$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/target/" />
+    <ignored path="$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring-demo/target/" />
+    <ignored path="$PROJECT_DIR$/shield-ratelimiter-core/target/" />
+    <ignored path="$PROJECT_DIR$/shleld-ratelimter-demo/target/" />
+    <ignored path="$USER_HOME$/Downloads/mfbizcore-master-396c4c4b8fa04332ac9c212a1c4220c8b0c3aeaa/mfbizcore-service/target/" />
+    <ignored path="$USER_HOME$/Downloads/mfbizcore-master-396c4c4b8fa04332ac9c212a1c4220c8b0c3aeaa/mfbizcore-facade/target/" />
+    <ignored path="$USER_HOME$/Downloads/mfbizcore-master-396c4c4b8fa04332ac9c212a1c4220c8b0c3aeaa/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mfbizcore/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mfbizcore/mfbizcore-service/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mfbizcore/mfbizcore-facade/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-facade/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mprodbasecore/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-service/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mopmweb/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mopmweb/mopmweb-facade/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/mopmweb/mopmweb-service/target/" />
+    <ignored path="D:/snowalker-workspace/0mkt-workspace/customerapiservice/target/" />
+    <ignored path="$PROJECT_DIR$/../shield-transaction/shield-notification-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/../shield-transaction/shield-message-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/../shield-transaction/shield-tcc-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/../shield-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/../sheild-conf-single/target/" />
+    <ignored path="$PROJECT_DIR$/../sheild-conf-single/sheild-conf-client-core/target/" />
+    <ignored path="$PROJECT_DIR$/../sheild-conf-single/shield-config-manage-ui/target/" />
+    <ignored path="$PROJECT_DIR$/../sheild-conf-single/shield-demo-project-single/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/shieldratelimiter$MAccBalanceTests_testAlipayQueryBalance.ic" NAME="MAccBalanceTests.testAlipayQueryBalance Coverage Results" MODIFIED="1543370283268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gaoyang.marketing.maccbasecore.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-709546611">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.118" value="1" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="6" />
+          <entry key="project.open.time.14" value="7" />
+          <entry key="project.open.time.15" value="8" />
+          <entry key="project.open.time.16" value="5" />
+          <entry key="project.open.time.17" value="7" />
+          <entry key="project.open.time.18" value="5" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="CHANGELOG" value="416" />
+          <entry key="Dockerfile" value="14" />
+          <entry key="IntelliJ Default" value="11" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="30756" />
+          <entry key="lua" value="26" />
+          <entry key="md" value="4094" />
+          <entry key="properties" value="1495" />
+          <entry key="sh" value="33" />
+          <entry key="sql" value="66" />
+          <entry key="txt" value="51" />
+          <entry key="xml" value="1206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="30756" />
+          <entry key="Markdown" value="4094" />
+          <entry key="PLAIN_TEXT" value="542" />
+          <entry key="Properties" value="1495" />
+          <entry key="SQL" value="86" />
+          <entry key="Scratch" value="66" />
+          <entry key="VTL" value="11" />
+          <entry key="XML" value="1120" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="111" value="1" />
+          <entry key="15" value="1" />
+          <entry key="2" value="1" />
+          <entry key="6" value="1" />
+          <entry key="8" value="2" />
+          <entry key="CHANGELOG" value="4" />
+          <entry key="Dockerfile" value="10" />
+          <entry key="class" value="32" />
+          <entry key="gitignore" value="12" />
+          <entry key="java" value="1295" />
+          <entry key="lua" value="6" />
+          <entry key="md" value="45" />
+          <entry key="properties" value="125" />
+          <entry key="sh" value="10" />
+          <entry key="springboot添加业务探针" value="1" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="251" />
+          <entry key="xsd" value="1" />
+          <entry key="设置gitignore去除多余文件" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="32" />
+          <entry key="JAVA" value="1295" />
+          <entry key="Markdown" value="43" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Properties" value="125" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="6" />
+          <entry key="XML" value="252" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="shieldratelimiter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBizServiceFacadeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6935">
+              <caret line="473" column="34" selection-start-line="473" selection-start-column="34" selection-end-line="473" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBalanceBizServiceFacadeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/AccountBalanceBizServiceFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/request/QueryAccountBalanceData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>用户账户信息查询失败</find>
+      <find>queryWebNoticeCrouselBannerList</find>
+      <find>queryWebNoticePopupBoxesList</find>
+      <find>QueryNoticeInfoListDO</find>
+      <find>queryNoticeInfoList</find>
+      <find>insertPrizeInfo</find>
+      <find>queryPrizeInfoList</find>
+      <find>balanceCurTotal</find>
+      <find>queryChargedAccBalanceRecord</find>
+      <find>e.printStackTrace()</find>
+      <find>createNoticeInfo</find>
+      <find>addChargeAccountBalance</find>
+      <find>accCurrBalance</find>
+      <find>updateSpecialChargeAccount</find>
+      <find>冲正</find>
+      <find>needRollbackTradeAmount</find>
+      <find>balanceLast</find>
+      <find>tradeAmountReal</find>
+      <find>ProductTypeInfoModel</find>
+      <find>ProductInfoBizServiceImpl</find>
+      <find>queryAllBalanceRecordList</find>
+      <find>清零</find>
+      <find>version</find>
+      <find>chargeAccountData.getExtMsg()</find>
+      <find>extMsg</find>
+      <find>queryAccountBalanceListData</find>
+      <find>ChargeNotifyLocalModel</find>
+      <find>SpecialChargeLocalModel</find>
+      <find>rulerChargeUtils</find>
+      <find>chargeExtMsg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>isBlank</replace>
+      <replace>queryNoticeInfoListData</replace>
+      <replace>OutQueryNoticeInfoModel</replace>
+      <replace>CreateNoticeInfoData</replace>
+      <replace>UpdateNoticeInfoData</replace>
+      <replace>OutCreateNoticeInfoModel</replace>
+      <replace>OutUpdateNoticeInfoModel</replace>
+      <replace>CreateNoticeInfoDO</replace>
+      <replace>CreateNoticeInfoDobj</replace>
+      <replace>QueryNoticeInfoListDO</replace>
+      <replace>QueryNoticeInfoDobj</replace>
+      <replace>getNextValueByAscLong</replace>
+      <replace>ChargeNotifyAcmConfig</replace>
+      <replace>SpecialChargeAcmConfig</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\snowalker-workspace\0mkt-workspace\maccbasecore\maccbasecore-service</dir>
+      <dir>D:\snowalker-workspace\0mkt-workspace\mfbizcore</dir>
+      <dir>D:\snowalker-workspace\0mkt-workspace\maccbasecore</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-service/src/test/java/com/gaoyang/marketing/mprodbasecore/ZhouzhouLingTests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/AccountBalanceBizServiceFacade.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/core/service/AccBalanceBizService.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/dal/impl/AccountBalanceDaoImpl.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/dal/AccountBalanceDao.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/enums/AlipayAccBalanceEnum.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/40715297-6a53-4c3c-85d1-a0c9fb7ddb38/console.sql" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/enumutil/AlipayAccBalanceEnum.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/dal/dobj/AccountBalanceQueryDobj.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/com/gaoyang/marketing/maccbasecore/common/dal/dobj/xml/AccountBalanceInfoMapping.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/constant/AccBalanceConst.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/maccbasecore/common-config.properties" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/META-INF/maccbasecore/applicationContext-dubbo-service.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/AccountBizServiceFacade.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/doc/高阳Kubernates部署简介.md" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/AccChargeConfigModel.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/AccSpecialChargeConfigModel.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/AccExtBean.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/AccExtEntity.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/ChargeNotifyLocalModel.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/SpecialChargeLocalModel.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/SpecialChargeAcmConfig.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/ChargeNotifyAcmConfig.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/MessageServer.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/AccNotifySender.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/core/service/impl/AccBalanceBizServiceImpl.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/CHANGELOG" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/application-dev.properties" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/application-prod.properties" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/config/RulerChargeUtils.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/pom.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/response/OutAlipayAccBalanceModel.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/response/OutAccountBalanceModel.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/request/QueryAccBalanceData.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/AccountBalanceBizServiceFacade.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/request/QueryAccountBalanceData.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBalanceBizServiceFacadeImpl.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/test/java/com/gaoyang/marketing/maccbasecore/MAccBalanceTests.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/README.md" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/pom.xml" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/AccExtEntity.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring-demo/src/main/java/com/snowalker/executor/rmqtest/MQSenderController.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/test/java/com/gaoyang/marketing/maccbasecore/MAccBaseCoreAppTests.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/constant/AccountConst.java" />
+        <option value="D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBizServiceFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/constant/MsgProtocolConst.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/constant/MsgEnvConst.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/protocol/ExchangeVoucherProtocol.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/MsgProtocolFactory.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/test/java/com/gaoyang/marketing/protocol/TestAccPaymentSuccProtocol.java" />
+        <option value="$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/pom.xml" />
+        <option value="$PROJECT_DIR$/shield-ratelimiter-core/pom.xml" />
+        <option value="$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/controller/TestController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maccbasecore-facade" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maccbasecore-facade" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maccbasecore-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maccbasecore-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="msg-protocol" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="msg-protocol" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="415" />
+    <option name="y" value="-10" />
+    <option name="width" value="760" />
+    <option name="height" value="1325" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>FinalizationJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="acccharge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maccbasecore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-ratelimiter-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-ratelimiter-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-ratelimiter-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-ratelimiter-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-ratelimiter-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-ratelimiter-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-ratelimiter" type="462c0819:PsiDirectoryNode" />
+              <item name="shleld-ratelimter-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shieldratelimiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shield-transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="shield-message-transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-facade/src/main/java/com/gaoyang/marketing/mbasecore/model/request/UpdateNoticeInfoData.java&#10;isEmpty&#9;PSI&#9;JAVA://com.alipay.sofa.common.profile.ArrayUtil#isEmpty" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543988937784" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sheild-conf-single/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gaoyang.marketing.mprodbasecore.common.dal.dobj" />
+      <recent name="com.gaoyang.marketing.maccbasecore.biz.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\snowalker-workspace\0mkt-workspace\maccbasecore\maccbasecore-service\doc" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\customerapiservice" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\customerapiservice\src\main" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\META-INF\mprodbasecore" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\com\gaoyang\marketing\mprodbasecore\common\dal\dobj\xml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.model" />
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.enums" />
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.model.request" />
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.model.response" />
+      <recent name="com.gaoyang.marketing.mprodbasecore" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\com\gaoyang\marketing\mprodbasecore\common\dal\dobj\xml" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\com.gaoyang.marketing.mprodbasecore.common.dal.dobj.noticeinfo.xml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.10382514" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="MAccBaseCoreAppTests.testAccBalanceCheckHandler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maccbasecore-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoyang.marketing.maccbasecore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gaoyang.marketing.maccbasecore" />
+      <option name="MAIN_CLASS_NAME" value="com.gaoyang.marketing.maccbasecore.MAccBaseCoreAppTests" />
+      <option name="METHOD_NAME" value="testAccBalanceCheckHandler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccPaymentSuccProtocol.testMsgProtocolFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msg-protocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoyang.marketing.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gaoyang.marketing.protocol" />
+      <option name="MAIN_CLASS_NAME" value="com.gaoyang.marketing.protocol.TestAccPaymentSuccProtocol" />
+      <option name="METHOD_NAME" value="testMsgProtocolFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msg-protocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoyang.marketing.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gaoyang.marketing.protocol" />
+      <option name="MAIN_CLASS_NAME" value="com.gaoyang.marketing.protocol.TestAccPaymentSuccProtocol" />
+      <option name="METHOD_NAME" value="testVoucherExchange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mfbizcore-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.mfbizcore.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mprodbasecore-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.mprodbasecore.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shield-demo-project-single" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.conf.test.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="customer-api-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.customer.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="maccbasecore-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.maccbasecore.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shleld-ratelimter-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowalker.ratelimiter.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowalker.ratelimiter.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rctmq-spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowalker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowalker.Application" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="" />
+          <option name="value" value="" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="" />
+          <option name="value" value="" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="" />
+          <option name="value" value="" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MopmwebServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mopmweb-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.mopmweb.MopmwebServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.App (1)" />
+      <item itemvalue="Spring Boot.App (2)" />
+      <item itemvalue="Spring Boot.MopmwebServiceApplication" />
+      <item itemvalue="Spring Boot.App (3)" />
+      <item itemvalue="Spring Boot.App (4)" />
+      <item itemvalue="JUnit.MAccBaseCoreAppTests.testAccBalanceCheckHandler" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testVoucherExchange" />
+      <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testMsgProtocolFactory" />
+      <item itemvalue="Spring Boot.Application (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testVoucherExchange" />
+        <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testMsgProtocolFactory" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.MAccBaseCoreAppTests.testAccBalanceCheckHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="477cdd79-b834-4d18-9f54-0db75fc1fde8" name="Default Changelist" comment="" />
+      <created>1540572346057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540572346057</updated>
+      <workItem from="1540572350027" duration="7000" />
+      <workItem from="1540572387775" duration="8923000" />
+      <workItem from="1540610034057" duration="240000" />
+      <workItem from="1540652614548" duration="3995000" />
+      <workItem from="1540726404590" duration="1170000" />
+      <workItem from="1540729484048" duration="64000" />
+      <workItem from="1540776698240" duration="4554000" />
+      <workItem from="1540785158094" duration="16434000" />
+      <workItem from="1540861164306" duration="14150000" />
+      <workItem from="1540888647283" duration="393000" />
+      <workItem from="1540889065891" duration="9786000" />
+      <workItem from="1540947680924" duration="18338000" />
+      <workItem from="1541036970551" duration="14106000" />
+      <workItem from="1541120966800" duration="16208000" />
+      <workItem from="1541225355711" duration="2401000" />
+      <workItem from="1541396328808" duration="3901000" />
+      <workItem from="1541404660555" duration="4879000" />
+      <workItem from="1541466441635" duration="5458000" />
+      <workItem from="1541503182652" duration="1754000" />
+      <workItem from="1541554818827" duration="19375000" />
+      <workItem from="1541602000529" duration="1894000" />
+      <workItem from="1541639157191" duration="32967000" />
+      <workItem from="1541740352023" duration="30152000" />
+      <workItem from="1541833389028" duration="5352000" />
+      <workItem from="1541920873260" duration="2555000" />
+      <workItem from="1541984386752" duration="16580000" />
+      <workItem from="1542024011021" duration="867000" />
+      <workItem from="1542073724056" duration="1000000" />
+      <workItem from="1542075042578" duration="12469000" />
+      <workItem from="1542113737498" duration="5063000" />
+      <workItem from="1542252871317" duration="17324000" />
+      <workItem from="1542330774066" duration="2339000" />
+      <workItem from="1542594467180" duration="9585000" />
+      <workItem from="1542676191851" duration="12346000" />
+      <workItem from="1542770423568" duration="4296000" />
+      <workItem from="1542781697336" duration="129000" />
+      <workItem from="1542781876867" duration="13995000" />
+      <workItem from="1542848190290" duration="15230000" />
+      <workItem from="1542893582079" duration="427000" />
+      <workItem from="1542934655451" duration="6452000" />
+      <workItem from="1542958380747" duration="5699000" />
+      <workItem from="1543028892169" duration="10871000" />
+      <workItem from="1543194351072" duration="19449000" />
+      <workItem from="1543281042816" duration="18358000" />
+      <workItem from="1543316959384" duration="490000" />
+      <workItem from="1543370221970" duration="14034000" />
+      <workItem from="1543453719039" duration="18820000" />
+      <workItem from="1543539108140" duration="9565000" />
+      <workItem from="1543677936090" duration="271000" />
+      <workItem from="1543737667911" duration="3846000" />
+      <workItem from="1543761882006" duration="140000" />
+      <workItem from="1543762059901" duration="27000" />
+      <workItem from="1543799653349" duration="14163000" />
+      <workItem from="1543890955370" duration="9069000" />
+      <workItem from="1543971987771" duration="1849000" />
+      <workItem from="1543975534312" duration="6317000" />
+    </task>
+    <task id="LOCAL-00001" summary="snowalker--添加特殊记账逻辑">
+      <created>1540814643793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540814643793</updated>
+    </task>
+    <task id="LOCAL-00002" summary="snowalker--删除多余常量">
+      <created>1541988161997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541988161997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MAccBaseCoreAppTests_testAccBalanceCheckHandler - 2018.12.03 at 10h 35m 03s.xml">
+      <configuration name="MAccBaseCoreAppTests.testAccBalanceCheckHandler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 44m 39s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testMsgProtocolFactory - 2018.12.05 at 10h 45m 10s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testMsgProtocolFactory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 46m 24s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 46m 42s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 47m 10s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 47m 16s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 47m 36s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 48m 00s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 48m 13s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="470126000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964706" visible="true" weight="0.24932976" />
+      <window_info id="Structure" order="1" sideWeight="0.5035294" side_tool="true" weight="0.28619304" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5035294" side_tool="true" weight="0.28619304" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.49865952" visible="true" weight="0.6055944" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.4055944" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36363637" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.36923078" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.42097902" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49865952" weight="0.3846154" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.61958045" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.5916084" />
+      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.4964706" weight="0.14812332" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" order="11" sideWeight="0.5035294" side_tool="true" weight="0.14812332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964706" visible="true" weight="0.24932976" />
+      <window_info id="Structure" order="1" sideWeight="0.5035294" side_tool="true" weight="0.28619304" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5035294" side_tool="true" weight="0.28619304" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run Dashboard" order="3" sideWeight="0.49865952" weight="0.6685315" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49865952" visible="true" weight="0.4055944" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.36363637" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.36923078" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013405" side_tool="true" weight="0.42097902" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49865952" weight="0.3846154" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.61958045" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.5916084" />
+      <window_info anchor="bottom" id="Problems" order="18" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.4964706" weight="0.14812332" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" order="11" sideWeight="0.5035294" side_tool="true" weight="0.14812332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="snowalker--添加特殊记账逻辑" />
+    <MESSAGE value="snowalker--删除多余常量" />
+    <option name="LAST_COMMIT_MESSAGE" value="snowalker--删除多余常量" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/CHANGELOG">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/notify/bean/AccExtEntity.java" />
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="568">
+            <caret line="70" selection-start-line="70" selection-end-line="70" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/test/java/com/gaoyang/marketing/maccbasecore/MAccBalanceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="339" column="7" selection-start-line="339" selection-start-column="7" selection-end-line="339" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/request/SpecialChargeAccountData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/core/service/impl/AccountBizServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="634" column="50" lean-forward="true" selection-start-line="634" selection-start-column="50" selection-end-line="634" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/mq/acccharge/consumer/service/AccChargeSubService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/enumutil/ResponseEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring-demo/src/main/java/com/snowalker/executor/rmqtest/MQSenderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="124" column="67" lean-forward="true" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/test/java/com/gaoyang/marketing/maccbasecore/MAccBaseCoreAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9633">
+          <caret line="548" column="8" selection-start-line="548" selection-start-column="8" selection-end-line="552" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/rctmq-spring-demo/src/main/java/com/snowalker/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/mq/acccharge/AccChargeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/mq/acccharge/consumer/listener/AccChargeConsumerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4408">
+          <caret line="260" column="13" selection-start-line="260" selection-start-column="13" selection-end-line="260" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/mq/acccharge/producer/executor/AccChargeLocalServiceExecuter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/AccExtEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/common/util/config/RulerChargeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/resources/maccbasecore/common-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/doc/K8S基础设施搭建.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-139" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/constant/AccountConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="74" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/doc/高阳Kubernates部署简介.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/doc/镜像打包部署.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/protocol/DeliverQueryTaskProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="77" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/protocol/CreateTradeProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/protocol/ExchangeVoucherProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/MsgProtocolEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/util/MsgProtocolConstUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/constant/MsgEnvConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/constant/MsgProtocolConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="72" column="78" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/MsgProtocolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/test/java/com/gaoyang/marketing/protocol/TestAccPaymentSuccProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/BaseMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rmqtool-protocol-lib/msg-protocol/src/main/java/com/gaoyang/marketing/protocol/DeliveryProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBalanceBizServiceFacadeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/AccountBalanceBizServiceFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/constant/AccBalanceConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-facade/src/main/java/com/gaoyang/marketing/maccbasecore/facade/model/request/QueryAccountBalanceData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shield-ratelimiter-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shield-ratelimiter-core/src/main/java/com/snowalker/shield/ratelimiter/core/redis/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shield-ratelimiter-core/src/main/java/com/snowalker/shield/ratelimiter/core/handler/RateLimterHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shield-ratelimiter-core/src/main/java/com/snowalker/shield/ratelimiter/core/annotation/RateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shield-ratelimiter-core/src/main/resources/rateLimter.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/snowalker-workspace/0mkt-workspace/maccbasecore/maccbasecore-service/src/main/java/com/gaoyang/marketing/maccbasecore/biz/service/AccountBizServiceFacadeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6935">
+          <caret line="473" column="34" selection-start-line="473" selection-start-column="34" selection-end-line="473" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shleld-ratelimter-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>permission:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (maccbasecore-service)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maccbasecore-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
