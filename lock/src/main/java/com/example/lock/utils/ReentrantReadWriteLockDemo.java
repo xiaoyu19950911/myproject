@@ -1,10 +1,14 @@
 package com.example.lock.utils;
 
+import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
+
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @program: myproject
@@ -13,8 +17,10 @@ import java.util.concurrent.locks.ReentrantLock;
  * @create: 2019-07-01 15:20
  */
 public class ReentrantReadWriteLockDemo {
+    ReadWriteLock lock = new ReentrantReadWriteLock();
 
     public static void main(String[] args) {
+
         final Demo myObject = new Demo();
         ExecutorService executorService = Executors.newCachedThreadPool();
 

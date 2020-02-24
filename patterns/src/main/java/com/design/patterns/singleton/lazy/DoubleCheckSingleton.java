@@ -1,5 +1,9 @@
 package com.design.patterns.singleton.lazy;
 
+import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
+
+import java.util.List;
+
 /**
  * @program: myproject
  * @description: 双重锁校验
@@ -24,4 +28,8 @@ public class DoubleCheckSingleton {
         }
         return instance;
     }
+
+RedisAutoConfiguration
+
+
 }
